@@ -1,0 +1,120 @@
+html {
+  font-size: 26, 5%;
+}
+
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Roboto Slab', serif; */
+
+.bg-image {
+  height: calc(100vh - 56px);
+
+  background-image: url("./img/background-desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.text-subtitle {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.initial-video {
+  width: 640px;
+  height: 360px;
+}
+
+.bg-white-primary {
+  background: white;
+}
+
+.bg-white-secondary {
+  background: #f5f5f5;
+}
+
+.bg-red {
+  background: #ff594e;
+}
+
+.bg-grey-primary {
+  background: #484b57;
+}
+
+.bg-grey-secondary {
+  background: #3b4157;
+}
+
+.bg-green {
+  background: #1fab36;
+}
+
+.cl-white-primary {
+  color: white;
+}
+
+.cl-white-secondary {
+  color: #f5f5f5;
+}
+
+.cl-red {
+  color: #ff594e;
+}
+
+.cl-grey-primary {
+  color: #484b57;
+}
+
+.cl-grey-secondary {
+  color: #3b4157;
+}
+
+.cl-green {
+  color: #1fab36;
+}
+
+@media (max-width: 700px) {
+  .initial-video {
+    width: 90vw;
+    height: 60vh;
+  }
+
+  .text-title {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .text-subtitle {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .bg-image {
+    background-image: url("./img/background-mobile.jpg");
+  }
+
+  .initial-video {
+    width: 88vw;
+    height: 40vh;
+  }
+
+  .text-title {
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+
+  .text-subtitle {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+}
