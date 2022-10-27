@@ -10,20 +10,8 @@ html {
   background: #e6e7e7;
 }
 
-.bg-white-secondary {
-  background: #f5f5f5;
-}
-
-.bg-red {
-  background: #ff594e;
-}
-
 .bg-grey {
   background: #e5e7e7;
-}
-
-.bg-grey-primary {
-  background: #484b57;
 }
 
 .bg-grey-secondary {
@@ -48,10 +36,6 @@ html {
 
 .cl-white-primary {
   color: white;
-}
-
-.cl-white-secondary {
-  color: #f5f5f5;
 }
 
 .cl-red {
