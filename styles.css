@@ -297,6 +297,26 @@ html {
   font-size: 0.9rem;
 }
 
+.doubts {
+  padding: 10vh 16vw;
+}
+
+.doubts__item {
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  border-bottom: 2px solid gray;
+}
+
+.doubts__add {
+  margin-right: 10px;
+
+  color: #ff594e;
+}
+
 @media (max-width: 1370px) {
   .explanation {
     padding: 7vh 16vw;
@@ -445,5 +465,9 @@ html {
 
   .results__paragraph {
     text-align: center;
+  }
+
+  .doubts {
+    padding: 10vh 4vw;
   }
 }
