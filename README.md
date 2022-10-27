@@ -18,7 +18,7 @@ Tem o objetivo de desenvolver uma aplicação com base num layout predefinido e 
 
 ## 💻 Como usar?
 
-Para navegar na aplicação você pode rolar a página e interagir com alguns elementos, por exemplo na seç.
+Para navegar na aplicação você pode rolar a página e interagir com alguns elementos, por exemplo na seção de dúvidas.
 
 ## 🛠️ Ferramentas utilizadas?
 
