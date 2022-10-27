@@ -173,6 +173,13 @@ html {
 
   width: 80px;
   height: 70px;
+
+  color: #a6a7a7;
+}
+
+.package__box:hover {
+  color: white;
+  background: #1fab36;
 }
 
 .package__box.active {

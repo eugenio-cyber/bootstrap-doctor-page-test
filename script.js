@@ -1,9 +1,27 @@
 let checkIconFirst = document.querySelector("#check-icon-mobile-01");
 let checkIconSecond = document.querySelector("#check-icon-mobile-02");
+let boxesFirst = document.querySelectorAll("#package__box--first");
+let boxesSecond = document.querySelectorAll("#package__box--second");
+
+boxesFirst.forEach((box) => {
+  box.addEventListener("click", () => {
+    boxesFirst.forEach((box) => {
+      box.classList.remove("active");
+    });
+    box.classList.add("active");
+  });
+});
+
+boxesSecond.forEach((box) => {
+  box.addEventListener("click", () => {
+    boxesSecond.forEach((box) => {
+      box.classList.remove("active");
+    });
+    box.classList.add("active");
+  });
+});
 
 checkIconFirst.addEventListener("click", () => {
-  console.log(boxes);
-
   let src = checkIconFirst.src;
 
   if (src.includes("check-icon-mobile.png")) {
