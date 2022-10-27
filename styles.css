@@ -95,7 +95,7 @@ html {
   font-size: 1.2rem;
 }
 
-.text-offer {
+.text-announcement {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1rem;
@@ -165,7 +165,7 @@ html {
   padding-bottom: 8vh;
 }
 
-.offer__content {
+.announcement {
   font-family: "Roboto", sans-serif;
 }
 
@@ -317,6 +317,36 @@ html {
   color: #ff594e;
 }
 
+.product {
+  padding: 10vh 14vw;
+}
+
+.product__content {
+  gap: 6vw;
+}
+
+.product__text {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.product__text ul {
+  list-style: none;
+}
+
+.product__text ul li::before {
+  content: "\2022";
+  color: #1fab36;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.product__img {
+  width: 360px;
+}
+
 @media (max-width: 1370px) {
   .explanation {
     padding: 7vh 16vw;
@@ -389,6 +419,14 @@ html {
   .results__img-list--bottom {
     justify-content: center;
   }
+
+  .product {
+    padding: 10vh 4vw;
+  }
+
+  .product__img {
+    width: 250px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -424,7 +462,7 @@ html {
     text-align: center;
   }
 
-  .offer__content {
+  .announcement {
     flex-direction: column !important;
     gap: 60px !important;
   }
@@ -469,5 +507,13 @@ html {
 
   .doubts {
     padding: 10vh 4vw;
+  }
+
+  .product .section__top br {
+    display: none;
+  }
+
+  .product__img {
+    display: none;
   }
 }
