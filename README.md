@@ -4,7 +4,7 @@
   
 <br>
 <p align="center">
-<img src="https://img.shields.io/badge/status-em%20desenvolvimento-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/status-concluído-green?style=for-the-badge"/>
 </p>
 <br>
 
@@ -14,11 +14,11 @@
 
 ## 🏹 Qual o objetivo do projeto?
 
-Tem o objetivo de...
+Tem o objetivo de desenvolver uma aplicação com base num layout predefinido e testar meus conhecimento usando HTML5, CSS3, JavaScript e Bootstrap 5.
 
 ## 💻 Como usar?
 
-Para navegar na aplicação você...
+Para navegar na aplicação você pode rolar a página e interagir com alguns elementos, por exemplo na seç.
 
 ## 🛠️ Ferramentas utilizadas?
 
