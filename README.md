@@ -10,7 +10,7 @@
 
 ## 🔗 Quer acessar o projeto?
 
-[Clique aqui para ver](https://eugenio-cyber.github.io/landing-page-test/)
+[Clique aqui para ver](https://eugenio-cyber.github.io/bootstrap-doctor-page-test/)
 
 ## 🏹 Qual o objetivo do projeto?
 
